@@ -254,6 +254,7 @@ nav {
 }
 .hero h1 span {
   background: linear-gradient(135deg, #c800ff, #00c2ff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1324,6 +1325,7 @@ section {
 .cta-banner h2 em {
   font-style: italic;
   background: linear-gradient(135deg, #c800ff, #00c2ff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
